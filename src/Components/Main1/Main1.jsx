@@ -288,7 +288,7 @@ const Main1 = () => {
               alt=""
             />
             <h1 className=" text-[35px] flex items-center justify-center font-bold">
-              Aspirings Ak-
+              Netflex-
             </h1>
             <h1 className="text-[35px] flex items-center justify-center font-bold">
               Product
@@ -304,7 +304,7 @@ const Main1 = () => {
               alt=""
             />
             <h1 className=" text-[35px] flex items-center justify-center font-bold">
-              Rent my
+              Flow bite
             </h1>
             <h1 className="text-[35px] flex items-center justify-center font-bold">
               Properties
@@ -320,7 +320,7 @@ const Main1 = () => {
               alt=""
             />
             <h1 className=" text-[35px] flex items-center justify-center font-bold">
-              Synerge -
+              Data -
             </h1>
             <h1 className="text-[35px] flex items-center justify-center font-bold">
               website
@@ -336,7 +336,7 @@ const Main1 = () => {
               alt=""
             />
             <h1 className=" text-[35px] flex items-center justify-center font-bold">
-              Kitelle
+              Login
             </h1>
             <button className="w-[60%] h-16  text-black font-bold border-2 hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://project33-three.vercel.app/">Live Demo</a>
