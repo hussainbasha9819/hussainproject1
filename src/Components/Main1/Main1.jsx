@@ -1,7 +1,14 @@
+import Project555 from "../../assets/project555.png";
+import Project111 from "../../assets/project111.png";
+import Project333 from "../../assets/project333.png";
+import Project444 from "../../assets/project444.png";
+import Project666 from "../../assets/project666.png";
+import Project222 from "../../assets/project222.png";
+
 const Main1 = () => {
   return (
     <>
-      <div className="w-full h-screen  flex">
+      <div className=" animate-[_7s_ease-in-]  w-full h-screen  flex">
         <div className="w-1/2 h-full  flex items-center justify-end ">
           <img src="https://vishal-resume.vercel.app/assets/me1.avif" alt="" />
         </div>
@@ -24,8 +31,7 @@ const Main1 = () => {
           </div>
         </div>
       </div>
-
-      <div id="about" className="w-full h-screen flex flex-col   ">
+      <div id="about" className="w-full h-screen  flex flex-col   ">
         <div className="w-full h-32  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500">Get To Know More</h4>
           <h1 className="text-5xl font-bold">About Me</h1>
@@ -283,7 +289,7 @@ const Main1 = () => {
         <div className="w-full h-[190vh] pr-32 pl-32  flex flex-wrap items-center justify-evenly ">
           <div className="w-[300px] h-[500px] border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project111.png"
+              src={Project111}
               className="w-[70%] h-[300px] rounded-3xl "
               alt=""
             />
@@ -299,7 +305,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project333.png"
+              src={Project333}
               className="w-[70%] h-[300px] rounded-3xl "
               alt=""
             />
@@ -315,7 +321,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project444.png"
+              src={Project444}
               className="w-[70%] h-[300px] rounded-3xl "
               alt=""
             />
@@ -331,7 +337,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project555.png"
+              src={Project555}
               className="w-[70%] h-[300px] rounded-3xl "
               alt=""
             />
@@ -344,7 +350,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project666.png"
+              src={Project666}
               className="w-[70%] h-[300px] rounded-3xl "
               alt=""
             />
@@ -357,7 +363,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\Screenshot 2023-07-06 181605.png"
+              src={Project222}
               className="w-[70%] h-[300px] rounded-3xl "
               alt=""
             />
@@ -402,4 +408,5 @@ const Main1 = () => {
     </>
   );
 };
+
 export default Main1;
