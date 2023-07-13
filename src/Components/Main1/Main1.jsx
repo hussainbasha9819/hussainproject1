@@ -97,13 +97,13 @@ const Main1 = () => {
           </h4>
           <h1 className="text-5xl font-bold">Experience</h1>
         </div>
-        <div className="w-full h-screen phone:h-[35vh] flex pl-[10px]  phone:items-start phone:justify-center  items-center justify-center">
-          <div className="w-[80%] h-[480px] border-2 border-slate-700 rounded-3xl ">
+        <div className="w-full h-screen phone:h-[35vh] flex phone:items-start phone:justify-center  items-center justify-center">
+          <div className="w-[100%] h-[480px] border-2 border-slate-700 rounded-3xl ">
             <div className="w-full h-20  flex items-center justify-center ">
               <h1 className="text-3xl text-slate-500">MERN Development</h1>
             </div>
             <div className="w-full h-[310px] phone:flex phone:items-center phone:justify-centert phone:gap-[20px]   flex items-center justify-evenly">
-              <div className="w-[230px] phone:w-[100px] phone:pl-[35px] h-64 flex flex-col items-center phone:flex phone:items-center phone:justify-center justify-evenly ">
+              <div className="w-[230px] phone:w-[100px] phone:pl-[50px] h-64 flex flex-col items-center phone:flex phone:items-center phone:justify-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-[120px]   flex">
                   <div className="w-2/4 phone:w-[40%]  h-20 flex items-star justify-center ">
                     <img
@@ -250,7 +250,7 @@ const Main1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[230px] phone:w-[100px] h-64 phone:pr-[20px] flex flex-col items-center justify-evenly ">
+              <div className="w-[230px] phone:w-[100px] h-64 phone:pr-[30px] flex flex-col items-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-[120px]  flex">
                   <div className="w-2/4 h-20 phone:w-[40%] flex items-star justify-center ">
                     <img
@@ -329,7 +329,7 @@ const Main1 = () => {
           <h1 className="text-5xl font-bold">Projects</h1>
         </div>
 
-        <div className="w-full h-[190vh] pr-32 pl-32 phone:w-[100%] phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
+        <div className="w-full h-[190vh] pr-32 pl-32 phone:w-[100%] phone:h-[210vh]  phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
           <div className="w-[300px] h-[500px] border-2 border-slate-500 phone:w-[200px] phone:h-[300px] phone:gap-2 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src="src\assets\project111.png"
