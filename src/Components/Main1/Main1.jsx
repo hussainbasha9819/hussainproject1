@@ -97,8 +97,8 @@ const Main1 = () => {
           </h4>
           <h1 className="text-5xl font-bold">Experience</h1>
         </div>
-        <div className="w-full h-screen phone:h-[50vh] flex phone:pl-[20px]  phone:items-start phone:justify-start  items-center justify-center">
-          <div className="w-[90%] h-[480px] border-2 border-slate-700 rounded-3xl ">
+        <div className="w-full h-screen phone:h-[50vh] flex   phone:items-start phone:justify-start  items-center justify-center">
+          <div className="w-[100%] h-[480px] border-2 border-slate-700 rounded-3xl ">
             <div className="w-full h-20  flex items-center justify-center ">
               <h1 className="text-3xl text-slate-500">MERN Development</h1>
             </div>
