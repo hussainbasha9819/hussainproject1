@@ -1,10 +1,3 @@
-import Project555 from "../../assets/project555.png";
-import Project111 from "../../assets/project111.png";
-import Project333 from "../../assets/project333.png";
-import Project444 from "../../assets/project444.png";
-import Project666 from "../../assets/project666.png";
-import Project222 from "../../assets/project222.png";
-
 const Main1 = () => {
   return (
     <>
@@ -339,7 +332,7 @@ const Main1 = () => {
         <div className="w-full h-[190vh] pr-32 pl-32 phone:w-[100%] phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
           <div className="w-[300px] h-[500px] border-2 border-slate-500 phone:w-[200px] phone:h-[300px] phone:gap-2 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src={Project111}
+              src="src\assets\project111.png"
               className="w-[70%] h-[300px] phone:h-[150px] rounded-3xl "
               alt=""
             />
@@ -355,7 +348,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src={Project333}
+              src="src\assets\project333.png"
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
@@ -371,7 +364,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src={Project444}
+              src="src\assets\project444.png"
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
@@ -387,7 +380,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src={Project555}
+              src="src\assets\project555.png"
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
@@ -400,7 +393,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src={Project666}
+              src="src\assets\project666.png"
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
@@ -413,7 +406,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src={Project222}
+              src="src\assets\Project222.png"
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
