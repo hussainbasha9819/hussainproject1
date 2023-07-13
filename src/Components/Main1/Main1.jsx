@@ -103,7 +103,7 @@ const Main1 = () => {
               <h1 className="text-3xl text-slate-500">MERN Development</h1>
             </div>
             <div className="w-full h-[310px] phone:flex phone:items-center phone:justify-centert phone:gap-[20px]   flex items-center justify-evenly">
-              <div className="w-[230px] phone:w-[100px] h-64 flex flex-col items-center phone:flex phone:items-center phone:justify-center justify-evenly ">
+              <div className="w-[230px] phone:w-[100px] phone:pl-[35px] h-64 flex flex-col items-center phone:flex phone:items-center phone:justify-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-[120px]   flex">
                   <div className="w-2/4 phone:w-[40%]  h-20 flex items-star justify-center ">
                     <img
@@ -250,7 +250,7 @@ const Main1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[230px] phone:w-[100px] h-64 flex flex-col items-center justify-evenly ">
+              <div className="w-[230px] phone:w-[100px] h-64 phone:pr-[20px] flex flex-col items-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-[120px]  flex">
                   <div className="w-2/4 h-20 phone:w-[40%] flex items-star justify-center ">
                     <img
@@ -311,7 +311,7 @@ const Main1 = () => {
             </div>
           </div>
         </div>
-        <span className="w-10 h-14  absolute top-[250%] phone:top-[210%] phone:right-[4%] right-20 mt-96 flex items-center justify-end">
+        <span className="w-10 h-14  absolute top-[250%] phone:top-[220%] phone:right-[4%] right-20 mt-96 flex items-center justify-end">
           <a href="#projects">
             <img
               src="https://vishal-resume.vercel.app/assets/arrow.png"
