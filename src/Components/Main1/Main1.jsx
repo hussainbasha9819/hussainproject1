@@ -97,8 +97,8 @@ const Main1 = () => {
           </h4>
           <h1 className="text-5xl font-bold">Experience</h1>
         </div>
-        <div className="w-full h-screen phone:h-[35vh] flex pl-[10px]  phone:items-start phone:justify-start  items-center justify-center">
-          <div className="w-[100%] h-[480px] border-2 border-slate-700 rounded-3xl ">
+        <div className="w-full h-screen phone:h-[35vh] flex pl-[10px]  phone:items-start phone:justify-center  items-center justify-center">
+          <div className="w-[80%] h-[480px] border-2 border-slate-700 rounded-3xl ">
             <div className="w-full h-20  flex items-center justify-center ">
               <h1 className="text-3xl text-slate-500">MERN Development</h1>
             </div>
@@ -311,7 +311,7 @@ const Main1 = () => {
             </div>
           </div>
         </div>
-        <span className="w-10 h-14  absolute top-[250%] phone:top-[220%] phone:right-[4%] right-20 mt-96 flex items-center justify-end">
+        <span className="w-10 h-14  absolute top-[250%] phone:top-[220%] phone:hidden phone:right-[4%] right-20 mt-96 flex items-center justify-end">
           <a href="#projects">
             <img
               src="https://vishal-resume.vercel.app/assets/arrow.png"
