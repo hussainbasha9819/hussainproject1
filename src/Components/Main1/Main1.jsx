@@ -12,24 +12,23 @@ const Main1 = () => {
         <div className="w-1/2 h-full phone:w-1/2 phone:h-[40vh]   flex items-center justify-end ">
           <img src="https://vishal-resume.vercel.app/assets/me1.avif" alt="" />
         </div>
-        <div className="w-1/2 h-full phone:w-[70%] phone:h-[40vh] phone:justify-center phone:items-start flex items-center justify-center ">
-          <div className="w-10/12 h-4/6 flex-col gap-3  flex items-start justify-center  phone:items-center  pl-7  mt-6 ">
+        <div className="w-1/2 h-full phone:w-[70%] phone:h-[50vh] phone:flex  flex  ">
+          <div className="w-10/12 h-4/6 flex-col   phone:w-full phone:h-[50vh] phone:flex phone:items-center  flex items-start justify-center   ">
             <h6 className=" phone:font-semibold phone:text-3xl ">
-              {" "}
               Hello, I'm
             </h6>
-            <h1 className="text-5xl font-bold phone:text-[35px] phone:h-[10vh] phone:w-[80%]   ">
+            <h1 className="text-5xl font-bold phone:text-[35px] phone:h-[8vh] phone:flex phone:items-center phone:justify-center phone:w-[100%]    ">
               Hussain Basha
             </h1>
-            <h3 className="text-4xl text-slate-500 phone:h-[10vh] phone:w-full  phone:text-[30px] phone:font-extrabold ">
+            <h3 className="text-4xl text-slate-500 phone:h-[8vh] phone:w-full phone:flex phone:items-center phone:justify-center  phone:text-[30px] phone:font-extrabold ">
               MERN Stack Developer
             </h3>
-            <button className="w-1/3 h-16 rounded-full border-4 hover:bg-blue-600 border-slate-700  phone:w-[80%] phone:h-[20vh] phone:bg-slate-200 phone:font-extrabold phone:text-2xl  ">
+            <button className="w-1/3 h-16 rounded-full border-4 hover:bg-blue-600 border-slate-700  phone:w-[60%] phone:h-[10vh] phone:bg-slate-200 phone:font-extrabold phone:text-2xl  ">
               <a href="https://zety.com/cv-maker?utm_source=google&utm_medium=&utm_campaign=16724360371&utm_term=&network=x&device=c&adposition=&adgroupid=&placement=&utm_source=google&utm_medium=permax&utm_campaign=16724360371&utm_term=&network=x&device=c&adposition=&adgroupid=&placement=&gad=1&gclid=EAIaIQobChMIqpqa5fz7_wIVUBODAx0OPwV4EAAYASAAEgI31PD_BwE">
                 Download CV
               </a>
             </button>
-            <span className="w-1/4 h-11  flex items-center justify-evenly phone:w-full phone:10vh phone:items-center phone:justify-evenly  ">
+            <span className="w-1/4 h-11  flex items-center justify-evenly phone:w-full phone:h-[10vh] phone:items-center phone:justify-evenly  ">
               <i class="fa-brands fa-linkedin-in bg-black w-8 h-8 phone:w-[50px]  phone:h-[50px] phone:rounded-full phone:bg-pink-500 flex items-center justify-center text-white text-2xl rounded-full"></i>
               <a href="https://github.com/">
                 <i class="fa-brands fa-github phone:text-pink-500 phone:text-5xl  text-4xl "></i>
@@ -40,23 +39,23 @@ const Main1 = () => {
       </div>
       <div
         id="about"
-        className="w-full h-screen phone:h-[130vh] phone:w-full flex flex-col   "
+        className="w-full h-screen phone:h-[130vh] phone:flex phone:flex-col phone:w-full flex flex-col   "
       >
-        <div className="w-full h-32  flex flex-col items-center justify-center ">
+        <div className="w-full h-32 phone:w-full phone:h-[10vh] phone:flex phone:items-center phone:justify-center  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500 phone:text-xl phone:font-medium ">
             Get To Know More
           </h4>
           <h1 className="text-5xl font-bold">About Me</h1>
         </div>
-        <div className="w-full h-screen flex phone:flex phone:flex-col phone:gap-1  phone:items-center phone:justify-center  ">
-          <div className="w-2/4 h-screen  flex items-center justify-center ">
+        <div className="w-full h-screen flex phone:w-full phone:h-[110vh]  phone:flex phone:flex-col  phone:items-center phone:justify-center  ">
+          <div className="w-2/4 h-screen phone:w-[50%] phone:h-[40vh] phone:flex  flex items-center justify-center ">
             <img
               className="w-10/12 h-3/4 "
               src="https://vishal-resume.vercel.app/assets/me2.avif"
               alt=""
             />
           </div>
-          <div className="w-2/4 h-screen phone:w-[70%]  phone:items-center phone:justify-center  phone:gap-2  flex flex-col items-start justify-evenly ">
+          <div className="w-2/4 h-screen phone:w-[50%] phone:h-[70vh]  phone:items-center phone:justify-center  phone:gap-2  flex flex-col items-start justify-evenly ">
             <span className="w-3/4 h-44 border-2 border-slate-700 rounded-3xl phone:h-[20vh] flex flex-col items-center justify-center ">
               <img
                 className="w-16 h-10"
@@ -70,7 +69,7 @@ const Main1 = () => {
               </h4>
             </span>
 
-            <span className="w-3/4 h-2/5  phone:h-[50vh]   ">
+            <span className="w-3/4 h-2/5 phone:w-full  phone:h-[50vh]   ">
               <p className="w-full h-24 text-lg phone:text-[20px]   phone:font-medium ">
                 As a MERN stack developer at the age of 21, you possess an
                 exceptional level of dedication, passion, and ambition within
@@ -98,13 +97,13 @@ const Main1 = () => {
         id="experience"
         className="w-full h-screen phone:h-[80vh] phone:w-full  phone:flex phone:items-center phone:justify-start  flex flex-col"
       >
-        <div className="w-full h-32  flex flex-col items-center justify-center ">
+        <div className="w-full h-32 phone:w-full phone:h-[15vh] phone:flex phone:flex-col  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500 phone:text-xl phone:font-semibold  ">
             Explore My
           </h4>
           <h1 className="text-5xl font-bold">Experience</h1>
         </div>
-        <div className="w-full h-screen phone:h-[35vh] flex phone:items-start phone:justify-center  items-center justify-center">
+        <div className="w-full h-screen phone:h-[50vh] phone:flex phone:w-full   flex phone:items-center phone:justify-center  items-center justify-center">
           <div className="w-[95%] h-[480px] border-2 border-slate-700 rounded-3xl ">
             <div className="w-full h-20  flex items-center justify-center ">
               <h1 className="text-3xl text-slate-500">MERN Development</h1>
@@ -330,14 +329,14 @@ const Main1 = () => {
       </div>
       <div
         id="projects"
-        className="w-full h-[200vh] phone:full  phone:items-center phone:justify-center phone:gap-[50px]  phone:h-[240vh]  flex flex-col "
+        className="w-full h-[200vh] phone:w-full phone:h-[230vh]  phone:flex phone:flex-col  flex flex-col "
       >
-        <div className="w-full h-16  flex items-center justify-center">
+        <div className="w-full h-16 phone:wfull phone:h-[15vh] phone:flex phone:items-center phone:justify-center  flex items-center justify-center">
           <h1 className="text-5xl font-bold">Projects</h1>
         </div>
 
-        <div className="w-full h-[190vh] pr-32 pl-32 phone:w-[100%] phone:h-[200vh]   phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
-          <div className="w-[300px] h-[500px] border-2 border-slate-500 phone:w-[200px] phone:h-[300px] phone:gap-2 rounded-2xl flex flex-col items-center justify-center ">
+        <div className="w-full h-[190vh] pr-32 pl-32 phone:w-full phone:h-[200vh]    phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
+          <div className="w-[300px] h-[500px] border-2 border-slate-500 phone:w-[300px] phone:h-[300px] phone:gap-2 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project111}
               className="w-[70%] h-[300px] phone:h-[150px] rounded-3xl "
@@ -353,7 +352,7 @@ const Main1 = () => {
               <a href="https://www.netflix.com/in">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px] phone:w-[300px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project333}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
@@ -369,7 +368,7 @@ const Main1 = () => {
               <a href="https://fetch-data-seven.vercel.app/">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px] phone:w-[300px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project444}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
@@ -385,7 +384,7 @@ const Main1 = () => {
               <a href="https://data-three-ebon.vercel.app/">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px]  phone:w-[200px] phone:h-[300px]  phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px]  phone:w-[300px] phone:h-[300px]  phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project555}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
@@ -398,7 +397,7 @@ const Main1 = () => {
               <a href="https://project33-three.vercel.app/">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px] phone:w-[300px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project666}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
@@ -411,7 +410,7 @@ const Main1 = () => {
               <a href="https://project22-delta.vercel.app/">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px] phone:w-[300px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={image222}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
@@ -428,7 +427,7 @@ const Main1 = () => {
       </div>
       <div
         id="contact"
-        className="w-full h-[400px] phone:h-[50vh] phone:full   flex flex-col items-center justify-center"
+        className="w-full h-[400px] phone:h-[50vh] phone:w-full phone:flex phone:flex-col phone:items-center phone:justify-center  flex flex-col items-center justify-center"
       >
         <h3 className="text-1xl text-slate-500 phone:text-2xl phone:font-semibold ">
           Get in Touch
