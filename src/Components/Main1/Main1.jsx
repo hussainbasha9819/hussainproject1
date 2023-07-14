@@ -40,7 +40,7 @@ const Main1 = () => {
       </div>
       <div
         id="about"
-        className="w-full h-screen phone:h-[110vh]  flex flex-col   "
+        className="w-full h-screen phone:h-[130vh]  flex flex-col   "
       >
         <div className="w-full h-32  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500 phone:text-xl phone:font-medium ">
@@ -56,8 +56,8 @@ const Main1 = () => {
               alt=""
             />
           </div>
-          <div className="w-2/4 h-screen phone:w-[70%]  phone:gap-2  flex flex-col items-start justify-evenly ">
-            <span className="w-3/4 h-44 border-2 border-slate-700 rounded-3xl phone:-[10vh] flex flex-col items-center justify-center ">
+          <div className="w-2/4 h-screen phone:w-[70%]  phone:items-center phone:justify-center  phone:gap-2  flex flex-col items-start justify-evenly ">
+            <span className="w-3/4 h-44 border-2 border-slate-700 rounded-3xl phone:h-[20vh] flex flex-col items-center justify-center ">
               <img
                 className="w-16 h-10"
                 src="https://vishal-resume.vercel.app/assets/experience.png"
@@ -70,8 +70,8 @@ const Main1 = () => {
               </h4>
             </span>
 
-            <span className="w-3/4 h-2/5   ">
-              <p className="w-full h-24 text-lg phone:text-[12px]   phone:font-medium ">
+            <span className="w-3/4 h-2/5  phone:h-[50vh]   ">
+              <p className="w-full h-24 text-lg phone:text-[20px]   phone:font-medium ">
                 As a MERN stack developer at the age of 21, you possess an
                 exceptional level of dedication, passion, and ambition within
                 the software development field. Your early immersion in this
@@ -96,7 +96,7 @@ const Main1 = () => {
       </div>
       <div
         id="experience"
-        className="w-full h-screen phone:h-[80vh]  flex flex-col"
+        className="w-full h-screen phone:h-[80vh]  phone:flex phone:items-centerp phone:justify-center  flex flex-col"
       >
         <div className="w-full h-32  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500 phone:text-xl phone:font-semibold  ">
@@ -105,7 +105,7 @@ const Main1 = () => {
           <h1 className="text-5xl font-bold">Experience</h1>
         </div>
         <div className="w-full h-screen phone:h-[35vh] flex phone:items-start phone:justify-center  items-center justify-center">
-          <div className="w-[970%] h-[480px] border-2 border-slate-700 rounded-3xl ">
+          <div className="w-[97%] h-[480px] border-2 border-slate-700 rounded-3xl ">
             <div className="w-full h-20  flex items-center justify-center ">
               <h1 className="text-3xl text-slate-500">MERN Development</h1>
             </div>
@@ -157,7 +157,7 @@ const Main1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[230px] phone:w-[90px] h-64 flex flex-col items-center justify-evenly ">
+              <div className="w-[230px] phone:w-[90px] h-64 flex phone:pl-[20px] flex-col items-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-[120px] flex">
                   <div className="w-2/4 h-20 phone:w-[40%] flex items-star justify-center ">
                     <img
@@ -330,7 +330,7 @@ const Main1 = () => {
       </div>
       <div
         id="projects"
-        className="w-full h-[200vh]  phone:h-[220vh]  flex flex-col "
+        className="w-full h-[200vh]  phone:h-[240vh]  flex flex-col "
       >
         <div className="w-full h-16  flex items-center justify-center">
           <h1 className="text-5xl font-bold">Projects</h1>
@@ -434,8 +434,8 @@ const Main1 = () => {
           Get in Touch
         </h3>
         <h1 className="text-5xl text-black font-bold">Contact Me</h1>
-        <span className="w-[60%] h-24 phone:h-[18vh] phone:flex phone:flex-col rounded-3xl border-2 mt-16 border-slate-500 flex items-center justify-center gap-5">
-          <span className="w-[40%] h-20 phone:w-[80%] phone:h-[70px]   flex phone:flex phone:items-center phone:justify-start phone:gap-3 items-center justify-evenly ">
+        <span className="w-[60%] h-24 phone:h-[18vh] phone:w-[70%] phone:flex phone:flex-col rounded-3xl border-2 mt-16 border-slate-500 flex items-center justify-center gap-5">
+          <span className="w-[40%] h-20 phone:w-[80%] phone:h-[70px] phone:mt-[10px]  flex phone:flex phone:items-center phone:justify-start phone:gap-3 items-center justify-evenly ">
             <i class="fa-solid fa-envelope w-10 h-10 bg-black  rounded-full flex items-center justify-center text-3xl text-white"></i>
             <p className="hover:border-b-2 border-slate-500 hover:text-slate-500 cursor-pointer text-2xl phone:text-2xl phone:font-bold ">
               <a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100">
