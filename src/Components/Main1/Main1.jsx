@@ -1,3 +1,10 @@
+import project111 from "../../assets/project111.png"
+import project222 from "../../assets/project222.png"
+import project333 from "../../assets/project333.png"
+import project444 from "../../assets/project444.png"
+import project555 from "../../assets/project555.png"
+import project666 from "../../assets/project666.png"
+
 const Main1 = () => {
   return (
     <>
@@ -89,7 +96,7 @@ const Main1 = () => {
       </div>
       <div
         id="experience"
-        className="w-full h-screen phone:h-[70vh]  flex flex-col"
+        className="w-full h-screen phone:h-[80vh]  flex flex-col"
       >
         <div className="w-full h-32  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500 phone:text-xl phone:font-semibold  ">
@@ -98,7 +105,7 @@ const Main1 = () => {
           <h1 className="text-5xl font-bold">Experience</h1>
         </div>
         <div className="w-full h-screen phone:h-[35vh] flex phone:items-start phone:justify-center  items-center justify-center">
-          <div className="w-[100%] h-[480px] border-2 border-slate-700 rounded-3xl ">
+          <div className="w-[90%] h-[480px] border-2 border-slate-700 rounded-3xl ">
             <div className="w-full h-20  flex items-center justify-center ">
               <h1 className="text-3xl text-slate-500">MERN Development</h1>
             </div>
@@ -311,7 +318,7 @@ const Main1 = () => {
             </div>
           </div>
         </div>
-        <span className="w-10 h-14  absolute top-[250%] phone:top-[220%] phone:hidden phone:right-[4%] right-20 mt-96 flex items-center justify-end">
+        <span className="w-10 h-14  absolute top-[240%] phone:top-[220%] phone:hidden phone:right-[4%] right-20 mt-96 flex items-center justify-end">
           <a href="#projects">
             <img
               src="https://vishal-resume.vercel.app/assets/arrow.png"
@@ -323,16 +330,16 @@ const Main1 = () => {
       </div>
       <div
         id="projects"
-        className="w-full h-[200vh]  phone:h-[200vh] flex flex-col "
+        className="w-full h-[200vh]  phone:h-[220vh]  flex flex-col "
       >
         <div className="w-full h-16  flex items-center justify-center">
           <h1 className="text-5xl font-bold">Projects</h1>
         </div>
 
-        <div className="w-full h-[190vh] pr-32 pl-32 phone:w-[100%] phone:h-[210vh]  phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
+        <div className="w-full h-[190vh] pr-32 pl-32 phone:w-[100%] phone:h-[200vh]   phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
           <div className="w-[300px] h-[500px] border-2 border-slate-500 phone:w-[200px] phone:h-[300px] phone:gap-2 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project111.png"
+              src={project111}
               className="w-[70%] h-[300px] phone:h-[150px] rounded-3xl "
               alt=""
             />
@@ -348,7 +355,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project333.png"
+              src={project333}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
@@ -364,7 +371,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project444.png"
+              src={project444}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
@@ -378,9 +385,9 @@ const Main1 = () => {
               <a href="https://data-three-ebon.vercel.app/">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px]  phone:w-[200px] phone:h-[300px]  phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project555.png"
+              src={project555}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
@@ -393,12 +400,12 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\project666.png"
+              src={project666}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
             <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
-              AspironKhuze
+            AspironKhuze
             </h1>
             <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[40%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://project22-delta.vercel.app/">Live Demo</a>
@@ -406,7 +413,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src="src\assets\Project222.png"
+              src={project222}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
@@ -421,7 +428,7 @@ const Main1 = () => {
       </div>
       <div
         id="contact"
-        className="w-full h-[400px]   flex flex-col items-center justify-center"
+        className="w-full h-[400px] phone:h-[50vh]   flex flex-col items-center justify-center"
       >
         <h3 className="text-1xl text-slate-500 phone:text-2xl phone:font-semibold ">
           Get in Touch
