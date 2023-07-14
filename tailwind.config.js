@@ -44,8 +44,8 @@ export default {
         tab: { max: "767px" },
         // => @media (max-width: 767px) { ... }
 
-        phone: { max: "639px", max: "620px", max: "1280px", max:"1024px"  },
-        // => @media (max-width: 639px , 620px ,1280px,1024px ) { ... }
+        phone: { max: "639px"  },
+        // => @media (max-width: 639px ) { ... }
 
         iphone: { max: "400px" },
         // => @media (max-width: 639px) { ... }
