@@ -95,7 +95,7 @@ const Main1 = () => {
       </div>
       <div
         id="experience"
-        className="w-full h-screen phone:h-[80vh] phone:w-full  phone:flex phone:items-center phone:justify-start  flex flex-col"
+        className="w-full h-screen phone:h-[100vh] phone:w-full  phone:flex phone:flex-col phone:items-center phone:justify-center phone:gap-[20px]  flex flex-col"
       >
         <div className="w-full h-32 phone:w-full phone:h-[15vh] phone:flex phone:flex-col  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500 phone:text-xl phone:font-semibold  ">
@@ -348,7 +348,7 @@ const Main1 = () => {
             <h1 className="text-[35px] flex items-center justify-center phone:text-[20px] font-bold">
               Product
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[40%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://www.netflix.com/in">Live Demo</a>
             </button>
           </div>
@@ -364,7 +364,7 @@ const Main1 = () => {
             <h1 className="text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
               Properties
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[40%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://fetch-data-seven.vercel.app/">Live Demo</a>
             </button>
           </div>
@@ -380,7 +380,7 @@ const Main1 = () => {
             <h1 className="text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
               website
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[40%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://data-three-ebon.vercel.app/">Live Demo</a>
             </button>
           </div>
@@ -393,7 +393,7 @@ const Main1 = () => {
             <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
               Login
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[40%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://project33-three.vercel.app/">Live Demo</a>
             </button>
           </div>
@@ -406,7 +406,7 @@ const Main1 = () => {
             <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
             AspironKhuze
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[40%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://project22-delta.vercel.app/">Live Demo</a>
             </button>
           </div>
@@ -419,7 +419,7 @@ const Main1 = () => {
             <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
               Ak-
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[40%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://project44-two.vercel.app/">Live Demo</a>
             </button>
           </div>
