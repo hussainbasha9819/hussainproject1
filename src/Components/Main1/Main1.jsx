@@ -1,5 +1,5 @@
 import project111 from "../../assets/project111.png"
-import project222 from "../../assets/project222.png"
+import image222 from "../../assets/image222.png"
 import project333 from "../../assets/project333.png"
 import project444 from "../../assets/project444.png"
 import project555 from "../../assets/project555.png"
@@ -413,7 +413,7 @@ const Main1 = () => {
           </div>
           <div className="w-[300px] h-[500px] phone:w-[200px] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
-              src={project222}
+              src={image222}
               className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
               alt=""
             />
