@@ -105,12 +105,12 @@ const Main1 = () => {
           <h1 className="text-5xl font-bold">Experience</h1>
         </div>
         <div className="w-full h-screen phone:h-[35vh] flex phone:items-start phone:justify-center  items-center justify-center">
-          <div className="w-[90%] h-[480px] border-2 border-slate-700 rounded-3xl ">
+          <div className="w-[970%] h-[480px] border-2 border-slate-700 rounded-3xl ">
             <div className="w-full h-20  flex items-center justify-center ">
               <h1 className="text-3xl text-slate-500">MERN Development</h1>
             </div>
             <div className="w-full h-[310px] phone:flex phone:items-center phone:justify-centert phone:gap-[20px]   flex items-center justify-evenly">
-              <div className="w-[230px] phone:w-[100px] phone:pl-[50px] h-64 flex flex-col items-center phone:flex phone:items-center phone:justify-center justify-evenly ">
+              <div className="w-[230px] phone:w-[90px] phone:pl-[65px] h-64 flex flex-col items-center phone:flex phone:items-center phone:justify-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-[120px]   flex">
                   <div className="w-2/4 phone:w-[40%]  h-20 flex items-star justify-center ">
                     <img
@@ -157,7 +157,7 @@ const Main1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[230px] phone:w-[100px] h-64 flex flex-col items-center justify-evenly ">
+              <div className="w-[230px] phone:w-[90px] h-64 flex flex-col items-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-[120px] flex">
                   <div className="w-2/4 h-20 phone:w-[40%] flex items-star justify-center ">
                     <img
@@ -208,7 +208,7 @@ const Main1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[230px] phone:w-[100px] h-64 flex flex-col items-center justify-evenly ">
+              <div className="w-[230px] phone:w-[90px] h-64 flex flex-col items-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-[120px]  flex">
                   <div className="w-2/4 h-20 phone:w-[40%] flex items-star justify-center ">
                     <img
@@ -257,7 +257,7 @@ const Main1 = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[230px] phone:w-[100px] h-64 phone:pr-[30px] flex flex-col items-center justify-evenly ">
+              <div className="w-[230px] phone:w-[90px] h-64 phone:pr-[40px] flex flex-col items-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-[120px]  flex">
                   <div className="w-2/4 h-20 phone:w-[40%] flex items-star justify-center ">
                     <img
