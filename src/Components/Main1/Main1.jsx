@@ -39,38 +39,38 @@ const Main1 = () => {
       </div>
       <div
         id="about"
-        className="w-full h-screen phone:h-[120vh] phone:flex phone:flex-col phone:w-full flex flex-col   "
+        className="w-full h-screen phone:h-[100vh] phone:flex phone:flex-col phone:w-full flex flex-col   "
       >
         <div className="w-full h-32 phone:w-full phone:h-[10vh] phone:flex phone:items-center phone:justify-center  flex flex-col items-center justify-center ">
-          <h4 className="text-lg text-slate-500 phone:text-xl phone:font-medium ">
+          <h4 className="text-lg text-slate-500 phone:text-lg phone:font-medium ">
             Get To Know More
           </h4>
-          <h1 className="text-5xl font-bold">About Me</h1>
+          <h1 className="text-5xl font-bold phone:text-[20px] ">About Me</h1>
         </div>
-        <div className="w-full h-screen flex phone:w-full phone:h-[100vh]  phone:flex phone:flex-col  phone:items-center phone:justify-center  ">
-          <div className="w-2/4 h-screen phone:w-[50%] phone:h-[40vh] phone:flex  flex items-center justify-center ">
+        <div className="w-full h-screen flex phone:w-full phone:h-[100vh]  phone:flex phone:flex-col phone:items-center phone:justify-start   ">
+          <div className="w-2/4 h-screen phone:w-[50%] phone:h-[30vh] phone:flex  flex items-center justify-center ">
             <img
               className="w-10/12 h-3/4 "
               src="https://vishal-resume.vercel.app/assets/me2.avif"
               alt=""
             />
           </div>
-          <div className="w-2/4 h-screen phone:w-[50%] phone:h-[70vh]  phone:items-center phone:justify-center  phone:gap-2  flex flex-col items-start justify-evenly ">
+          <div className="w-2/4 h-screen phone:w-[50%] phone:h-[60vh]   phone:items-center phone:justify-center  phone:gap-2  flex flex-col items-start justify-evenly ">
             <span className="w-3/4 h-44 border-2 border-slate-700 rounded-3xl phone:w-full phone:h-[20vh] flex flex-col items-center justify-center ">
               <img
                 className="w-16 h-10"
                 src="https://vishal-resume.vercel.app/assets/experience.png"
                 alt=""
               />
-              <h1 className="font-bold text-2xl">Experience</h1>
+              <h1 className="font-bold text-xl">Experience</h1>
               <h2 className="font-normal text-slate-500 text-lg">2+ years</h2>
-              <h4 className=" text-slate-900 text-[17px] font-bold ">
+              <h4 className=" text-slate-900 text-[14px] font-bold ">
                 MERN Development
               </h4>
             </span>
 
             <span className="w-3/4 h-2/5 phone:w-full  phone:h-[50vh]   ">
-              <p className="w-full h-24 text-lg phone:text-[11px]   phone:font-medium ">
+              <p className="w-full h-24 text-lg phone:text-[8px]   phone:font-medium ">
                 As a MERN stack developer at the age of 21, you possess an
                 exceptional level of dedication, passion, and ambition within
                 the software development field. Your early immersion in this
@@ -329,97 +329,97 @@ const Main1 = () => {
       </div>
       <div
         id="projects"
-        className="w-full h-[200vh] phone:w-full phone:h-[300vh] phone:gap-7 phone:flex phone:flex-col  flex flex-col "
+        className="w-full h-[200vh] phone:w-full phone:h-[205vh] phone:gap-7  phone:flex phone:flex-col  flex flex-col "
       >
         <div className="w-full h-16 phone:wfull phone:h-[10vh] phone:flex phone:items-center phone:justify-center  flex items-center justify-center">
           <h1 className="text-5xl font-bold phone:text-[20px]  ">Projects</h1>
         </div>
 
-        <div className="w-full  pl-32 pr-32 phone:p-0 phone:w-full py-5 phone:bg    phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
-          <div className="w-[300px] h-[500px] border-2 border-slate-500 phone:w-[80%] phone:h-[300px] phone:gap-2 rounded-2xl flex flex-col items-center justify-center ">
+        <div className="w-full  pl-32 pr-32 phone:p-0 phone:w-full py-5     phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
+          <div className="w-[300px] h-[500px] border-2 border-slate-500 phone:w-[70%] phone:h-[200px] phone:gap-1 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project111}
-              className="w-[70%] h-[300px] phone:h-[150px] rounded-3xl "
+              className="w-[70%] h-[300px] phone:w-[70%] phone:h-[100px] rounded-3xl "
               alt=""
             />
-            <h1 className=" text-[35px] flex items-center justify-center phone:text-[20px] font-bold">
+            <h1 className=" text-[35px] flex items-center justify-center phone:text-[15px] font-bold">
               Netflex-
             </h1>
-            <h1 className="text-[35px] flex items-center justify-center phone:text-[20px] font-bold">
+            <h1 className="text-[35px] flex items-center justify-center phone:text-[15px] font-bold">
               Product
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[50%] phone:h-[30px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://www.netflix.com/in">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px] phone:w-[80%] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px] phone:w-[70%] phone:h-[200px] phone:gap-1 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project333}
-              className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
+              className="w-[70%] h-[300px] rounded-3xl phone:w-[70%] phone:h-[100px] "
               alt=""
             />
-            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[20px]   ">
+            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[15px]   ">
               Flow bite
             </h1>
-            <h1 className="text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
+            <h1 className="text-[35px] flex items-center justify-center font-bold phone:text-[15px] ">
               Properties
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[50%] phone:h-[30px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://fetch-data-seven.vercel.app/">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px] phone:w-[80%] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px] phone:w-[70%] phone:h-[200px] phone:gap-1 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project444}
-              className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
+              className="w-[70%] h-[300px] rounded-3xl phone:w-[70%] phone:h-[100px] "
               alt=""
             />
-            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
+            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[15px] ">
               Data -
             </h1>
-            <h1 className="text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
+            <h1 className="text-[35px] flex items-center justify-center font-bold phone:text-[15px] ">
               website
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[50%] phone:h-[30px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://data-three-ebon.vercel.app/">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px]  phone:w-[80%] phone:h-[300px]  phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px]  phone:w-[70%] phone:h-[200px]  phone:gap-1 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project555}
-              className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
+              className="w-[70%] h-[300px] rounded-3xl phone:w-[70%] phone:h-[100px] "
               alt=""
             />
-            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
+            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[15px] ">
               Login
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[50%] phone:h-[30px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://project33-three.vercel.app/">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px] phone:w-[80%] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px] phone:w-[70%] phone:h-[200px] phone:gap-1 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project666}
-              className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
+              className="w-[70%] h-[300px] rounded-3xl phone:w-[70%] phone:h-[100px] "
               alt=""
             />
-            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
+            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[15px] ">
             AspironKhuze
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[50%] phone:h-[30px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://project22-delta.vercel.app/">Live Demo</a>
             </button>
           </div>
-          <div className="w-[300px] h-[500px] phone:w-[80%] phone:h-[300px] phone:gap-2 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
+          <div className="w-[300px] h-[500px] phone:w-[70%] phone:h-[200px] phone:gap-1 border-2 border-slate-500 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={image222}
-              className="w-[70%] h-[300px] rounded-3xl phone:h-[150px] "
+              className="w-[70%] h-[300px] rounded-3xl phone:w-[70%] phone:h-[100px] "
               alt=""
             />
-            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[20px] ">
+            <h1 className=" text-[35px] flex items-center justify-center font-bold phone:text-[15px] ">
               Ak-
             </h1>
-            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[60%] phone:h-[50px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
+            <button className="w-[60%] h-16  text-black font-bold border-2 phone:w-[50%] phone:h-[30px] hover:bg-black hover:text-white border-slate-500 rounded-full flex items-center justify-center">
               <a href="https://project44-two.vercel.app/">Live Demo</a>
             </button>
           </div>
