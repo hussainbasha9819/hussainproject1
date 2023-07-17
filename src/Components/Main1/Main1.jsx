@@ -69,8 +69,8 @@ const Main1 = () => {
               </h4>
             </span>
 
-            <span className="w-3/4 h-2/5 phone:w-[80%]  phone:h-[30vh]   ">
-              <p className="w-full h-24 text-lg phone:text-[9px]   phone:font-medium ">
+            <span className="w-3/4 h-2/5 phone:w-[80%]  phone:h-screen   ">
+              <p className="w-full h-24 text-lg phone:text-[11px]   phone:font-medium ">
                 As a MERN stack developer at the age of 21, you possess an
                 exceptional level of dedication, passion, and ambition within
                 the software development field. Your early immersion in this
@@ -95,7 +95,7 @@ const Main1 = () => {
       </div>
       <div
         id="experience"
-        className="w-full h-screen phone:h-[85vh] phone:w-full  phone:flex  phone:gap-[20px]  flex flex-col"
+        className="w-full h-screen phone:h-[80vh] phone:w-full  phone:flex  phone:gap-0  flex flex-col"
       >
         <div className="w-full h-32 phone:w-full phone:h-[15vh] phone:flex phone:flex-col  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500 phone:text-lg phone:font-semibold  ">
@@ -104,11 +104,11 @@ const Main1 = () => {
           <h1 className="text-5xl font-bold phone:text-[22px] ">Experience</h1>
         </div>
         <div className="w-full h-screen phone:h-[60vh] phone:flex phone:w-full   flex phone:items-center phone:justify-center  items-center justify-center">
-          <div className="w-[95%] h-[480px] phone:w-[97%] phone:h-[65vh] border-2 border-slate-700 rounded-3xl ">
-            <div className="w-full h-20  flex items-center justify-center ">
-              <h1 className="text-3xl text-slate-500">MERN Development</h1>
+          <div className="w-[95%] h-[480px] phone:w-[97%] phone:h-[55vh] phone:flex phone:flex-col border-2 border-slate-700 rounded-3xl ">
+            <div className="w-full h-20 phone:w-full phone:h-[40px]  flex items-center justify-center ">
+              <h1 className="text-3xl text-slate-500 phone:text-[20px] ">MERN Development</h1>
             </div>
-            <div className="w-full h-[310px] phone:w-full phone:h-[310px] phone:flex   flex items-center justify-evenly">
+            <div className="w-full h-[310px] phone:w-full phone:h-[260px]  phone:flex   flex items-center justify-evenly">
               <div className="w-[230px] phone:w-[90px]  h-64 flex flex-col items-center phone:flex phone:items-center phone:justify-center justify-evenly ">
                 <div className="w-52 h-20 phone:w-full   flex">
                   <div className="w-2/4 phone:w-[40%]  h-20 flex items-star justify-center ">
@@ -304,7 +304,7 @@ const Main1 = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full h-[85px] phone:w-full phone:h-[5%]  flex items-center justify-center  ">
+            <div className="w-full h-[85px] phone:w-full phone:h-[15%]  flex items-center justify-center  ">
               <img
                 src="https://vishal-resume.vercel.app/assets/ndoe.png"
                 className="w-[60px] h-6 mb-[25px] "
@@ -360,13 +360,13 @@ const Main1 = () => {
       </div>
       <div
         id="projects"
-        className="w-full h-[170vh] phone:w-full phone:h-[205vh] phone:gap-7  phone:flex phone:flex-col  flex flex-col "
+        className="w-full h-[170vh]  phone:w-full phone:h-[200vh] phone:gap-1  phone:flex phone:flex-col  flex flex-col "
       >
         <div className="w-full h-16 phone:wfull phone:h-[10vh] phone:flex phone:items-center phone:justify-center  flex items-center justify-center">
           <h1 className="text-5xl font-bold phone:text-[20px]  ">Projects</h1>
         </div>
 
-        <div className="w-full  pl-32 pr-32 phone:p-0 phone:w-full py-5     phone:flex gap-3 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
+        <div className="w-full  pl-32 pr-32 phone:p-0 phone:w-full py-5     phone:flex gap-2 phone:flex-wrap  flex flex-wrap items-center justify-evenly ">
           <div className="w-[300px] h-[500px] border-2 border-slate-500 phone:w-[70%] phone:h-[200px] phone:gap-1 rounded-2xl flex flex-col items-center justify-center ">
             <img
               src={project111}
