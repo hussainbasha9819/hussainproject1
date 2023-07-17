@@ -328,6 +328,37 @@ const Main1 = () => {
         </span>
       </div>
       <div
+        id="contact"
+        className="w-full h-[400px] phone:h-[45vh] phone:w-full phone:flex phone:flex-col phone:items-center phone:justify-center  flex flex-col items-center justify-center"
+      ><span className="w-full h-[15vh] flex flex-col items-center justify-center ">
+        <h3 className="text-1xl text-slate-500 phone:text-lg phone:font-semibold ">
+          Get in Touch
+        </h3>
+        <h1 className="text-5xl text-black font-bold phone:text-[22px]  ">Contact Me</h1></span>
+        <span className="w-[60%] h-24 phone:h-[25vh] phone:w-[70%] phone:flex phone:flex-col  rounded-3xl border-2 mt-16 border-slate-500 flex items-center justify-center gap-5">
+          <span className="w-[40%] h-20 phone:w-[80%] phone:h-[70px] phone:mt-[10px]  flex phone:flex phone:items-center phone:justify-start phone:gap-3 items-center justify-evenly ">
+            <i class="fa-solid fa-envelope w-10 h-10 bg-black  rounded-full flex items-center justify-center text-3xl text-white phone:text-2xl phone:w-8 phone:h-8 phone:rounded-full  "></i>
+            <p className="hover:border-b-2 border-slate-500 hover:text-slate-500 cursor-pointer text-2xl phone:text-[16px] phone:font-bold ">
+              <a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100">
+                useremail@gmail.com
+              </a>
+            </p>
+          </span>
+          <span className="w-[20%] h-28 flex items-center justify-evenly  phone:w-[80%] phone:h-[70px]   phone:flex phone:items-center phone:gap-3 phone:justify-start   ">
+            <i class="fa-brands fa-linkedin-in bg-black w-8 h-8 flex items-center justify-center text-white text-2xl phone:w-6 phone:h-6 phone:rounded-full phone:text-xl rounded-full"></i>
+            <h1 className="hover:border-b-2 border-slate-500 hover:text-slate-500 cursor-pointer text-2xl phone:text-[15px] phone:font-bold  ">
+              <a href="https://in.linkedin.com/">LinkedIn</a>
+            </h1>
+          </span>
+          <span className="w-[20%] h-28 flex items-center phone:w-[80%] phone:h-[70px] phone:flex phone:items-center phone:justify-start phone:gap-3 justify-evenly">
+            <i class="fa-brands fa-linkedin-in bg-black w-8 h-8 flex items-center justify-center text-white text-2xl rounded-full phone:w-6 phone:h-6 phone:rounded-full phone:text-xl  "></i>
+            <h1 className="hover:border-b-2 border-slate-500 hover:text-slate-500 cursor-pointer text-2xl phone:text-[16px] phone:font-bold ">
+              <a href="https://www.instagram.com/">Instagram</a>
+            </h1>
+          </span>
+        </span>
+      </div>
+      <div
         id="projects"
         className="w-full h-[200vh] phone:w-full phone:h-[205vh] phone:gap-7  phone:flex phone:flex-col  flex flex-col "
       >
@@ -424,37 +455,6 @@ const Main1 = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div
-        id="contact"
-        className="w-full h-[400px] phone:h-[45vh] phone:w-full phone:flex phone:flex-col phone:items-center phone:justify-center  flex flex-col items-center justify-center"
-      ><span className="w-full h-[15vh] flex flex-col items-center justify-center ">
-        <h3 className="text-1xl text-slate-500 phone:text-lg phone:font-semibold ">
-          Get in Touch
-        </h3>
-        <h1 className="text-5xl text-black font-bold phone:text-[22px]  ">Contact Me</h1></span>
-        <span className="w-[60%] h-24 phone:h-[25vh] phone:w-[70%] phone:flex phone:flex-col  rounded-3xl border-2 mt-16 border-slate-500 flex items-center justify-center gap-5">
-          <span className="w-[40%] h-20 phone:w-[80%] phone:h-[70px] phone:mt-[10px]  flex phone:flex phone:items-center phone:justify-start phone:gap-3 items-center justify-evenly ">
-            <i class="fa-solid fa-envelope w-10 h-10 bg-black  rounded-full flex items-center justify-center text-3xl text-white phone:text-2xl phone:w-8 phone:h-8 phone:rounded-full  "></i>
-            <p className="hover:border-b-2 border-slate-500 hover:text-slate-500 cursor-pointer text-2xl phone:text-[16px] phone:font-bold ">
-              <a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=100">
-                useremail@gmail.com
-              </a>
-            </p>
-          </span>
-          <span className="w-[20%] h-28 flex items-center justify-evenly  phone:w-[80%] phone:h-[70px]   phone:flex phone:items-center phone:gap-3 phone:justify-start   ">
-            <i class="fa-brands fa-linkedin-in bg-black w-8 h-8 flex items-center justify-center text-white text-2xl phone:w-6 phone:h-6 phone:rounded-full phone:text-xl rounded-full"></i>
-            <h1 className="hover:border-b-2 border-slate-500 hover:text-slate-500 cursor-pointer text-2xl phone:text-[15px] phone:font-bold  ">
-              <a href="https://in.linkedin.com/">LinkedIn</a>
-            </h1>
-          </span>
-          <span className="w-[20%] h-28 flex items-center phone:w-[80%] phone:h-[70px] phone:flex phone:items-center phone:justify-start phone:gap-3 justify-evenly">
-            <i class="fa-brands fa-linkedin-in bg-black w-8 h-8 flex items-center justify-center text-white text-2xl rounded-full phone:w-6 phone:h-6 phone:rounded-full phone:text-xl  "></i>
-            <h1 className="hover:border-b-2 border-slate-500 hover:text-slate-500 cursor-pointer text-2xl phone:text-[16px] phone:font-bold ">
-              <a href="https://www.instagram.com/">Instagram</a>
-            </h1>
-          </span>
-        </span>
       </div>
     </>
   );
