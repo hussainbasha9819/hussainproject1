@@ -39,7 +39,7 @@ const Main1 = () => {
       </div>
       <div
         id="about"
-        className="w-full h-screen phone:h-[100vh] phone:flex phone:flex-col phone:w-full flex flex-col   "
+        className="w-full h-screen phone:h-[95vh] phone:flex phone:flex-col phone:w-full flex flex-col   "
       >
         <div className="w-full h-32 phone:w-full phone:h-[10vh] phone:flex phone:items-center phone:justify-center  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500 phone:text-lg phone:font-medium ">
@@ -55,8 +55,8 @@ const Main1 = () => {
               alt=""
             />
           </div>
-          <div className="w-2/4 h-screen phone:w-[50%] phone:h-[60vh]   phone:items-center phone:justify-center  phone:gap-2  flex flex-col items-start justify-evenly ">
-            <span className="w-3/4 h-44 border-2 border-slate-700 rounded-3xl phone:w-full phone:h-[20vh] flex flex-col items-center justify-center ">
+          <div className="w-2/4 h-screen phone:w-full phone:h-[55vh] phone:items-center phone:justify-start  phone:gap-2  flex flex-col items-start justify-evenly ">
+            <span className="w-3/4 h-44 border-2 border-slate-700 rounded-3xl phone:w-[80%] phone:h-[20vh] flex flex-col items-center justify-center ">
               <img
                 className="w-16 h-10"
                 src="https://vishal-resume.vercel.app/assets/experience.png"
@@ -69,8 +69,8 @@ const Main1 = () => {
               </h4>
             </span>
 
-            <span className="w-3/4 h-2/5 phone:w-full  phone:h-[50vh]   ">
-              <p className="w-full h-24 text-lg phone:text-[8px]   phone:font-medium ">
+            <span className="w-3/4 h-2/5 phone:w-[80%]  phone:h-[30vh]   ">
+              <p className="w-full h-24 text-lg phone:text-[9px]   phone:font-medium ">
                 As a MERN stack developer at the age of 21, you possess an
                 exceptional level of dedication, passion, and ambition within
                 the software development field. Your early immersion in this
@@ -360,7 +360,7 @@ const Main1 = () => {
       </div>
       <div
         id="projects"
-        className="w-full h-[200vh] phone:w-full phone:h-[205vh] phone:gap-7  phone:flex phone:flex-col  flex flex-col "
+        className="w-full h-[170vh] phone:w-full phone:h-[205vh] phone:gap-7  phone:flex phone:flex-col  flex flex-col "
       >
         <div className="w-full h-16 phone:wfull phone:h-[10vh] phone:flex phone:items-center phone:justify-center  flex items-center justify-center">
           <h1 className="text-5xl font-bold phone:text-[20px]  ">Projects</h1>
