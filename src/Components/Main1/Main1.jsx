@@ -39,7 +39,7 @@ const Main1 = () => {
       </div>
       <div
         id="about"
-        className="w-full h-screen phone:h-[95vh] phone:flex phone:flex-col phone:w-full flex flex-col   "
+        className="w-full h-screen phone:h-[95vh]  phone:flex phone:flex-col phone:w-full flex flex-col   "
       >
         <div className="w-full h-32 phone:w-full phone:h-[10vh] phone:flex phone:items-center phone:justify-center  flex flex-col items-center justify-center ">
           <h4 className="text-lg text-slate-500 phone:text-lg phone:font-medium ">
@@ -69,7 +69,7 @@ const Main1 = () => {
               </h4>
             </span>
 
-            <span className="w-3/4 h-2/5 phone:w-[80%]  phone:h-screen   ">
+            <span className="w-3/4 h-2/5 phone:w-[80%]  phone:h-[40vh]   ">
               <p className="w-full h-24 text-lg phone:text-[11px]   phone:font-medium ">
                 As a MERN stack developer at the age of 21, you possess an
                 exceptional level of dedication, passion, and ambition within
